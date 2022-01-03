@@ -28,6 +28,15 @@ public class LaptopController {
         this.laptopRepository = laptopRepository;
     }
 
+    /**
+     *
+     * @return
+     */
+    @GetMapping("/")
+    public String inicio(){
+        return "Despliegue Aplicación Laptops en Heroku";
+    }
+
 
     //métodos CRUD
 
